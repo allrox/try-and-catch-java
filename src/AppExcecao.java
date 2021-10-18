@@ -17,10 +17,10 @@ public class AppExcecao {
 		 */
 		try {
 			System.out.println("Informe o numerador da divisão: ");
-			numerador = scan.nextInt();
+			numerador = Integer.parseInt(scan.next());
 			
 			System.out.println("Informe o denominador da divisão: ");
-			denominador = scan.nextInt();
+			denominador = Integer.parseInt(scan.next());
 			
 			resultado = (numerador / denominador);
 			resto = numerador % denominador;
